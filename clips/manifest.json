@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "start": 199.83,
+    "end": 227.9,
+    "title": "The 6-year-old who drew God",
+    "hook": "Nobody knows what God looks like",
+    "duration": 28.1,
+    "mode": "track",
+    "face_coverage": 0.94,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 321.63,
+    "end": 372.41,
+    "title": "School is educating creativity out of kids",
+    "hook": "Kids aren't afraid to be wrong",
+    "duration": 50.8,
+    "mode": "track",
+    "face_coverage": 0.84,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 945.77,
+    "end": 1002.83,
+    "title": "She's not sick. She's a dancer.",
+    "hook": "The doctor left her alone with a radio",
+    "duration": 57.1,
+    "mode": "track",
+    "face_coverage": 0.64,
+    "file": "clip_3.mp4"
+  }
+]
