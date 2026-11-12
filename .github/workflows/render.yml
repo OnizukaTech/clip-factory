@@ -1,0 +1,63 @@
+name: render
+run-name: render ${{ inputs.job }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      job:
+        description: Job id used in the transcribe run
+        required: true
+      source_run_id:
+        description: Run id of the transcribe run
+        required: true
+      clips:
+        description: 'JSON list: [{"id":1,"start":12.3,"end":55.0,"title":"...","hook":"..."}]'
+        required: true
+      mode:
+        description: auto, track or fit
+        default: auto
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install -q "opencv-python-headless<5" numpy
+      - uses: actions/download-artifact@v4
+        with:
+          name: source-${{ inputs.job }}
+          path: work
+          run-id: ${{ inputs.source_run_id }}
+          github-token: ${{ github.token }}
+      - uses: actions/download-artifact@v4
+        with:
+          name: transcript-${{ inputs.job }}
+          path: work/transcript
+          run-id: ${{ inputs.source_run_id }}
+          github-token: ${{ github.token }}
+      - name: Render clips
+        env:
+          CLIPS: ${{ inputs.clips }}
+        run: |
+          printf '%s' "$CLIPS" > work/clips.json
+          python scripts/render.py --video work/source.mp4 --words work/transcript/words.json \
+            --clips work/clips.json --out out --mode "${{ inputs.mode }}"
+          ls -lh out
+      - uses: actions/upload-artifact@v4
+        with:
+          name: clips-${{ inputs.job }}
+          path: out
+          retention-days: 14
+          compression-level: 0

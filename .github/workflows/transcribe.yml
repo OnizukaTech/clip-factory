@@ -1,0 +1,73 @@
+name: transcribe
+run-name: transcribe ${{ inputs.job }}
+
+on:
+  workflow_dispatch:
+    inputs:
+      url:
+        description: Video URL (YouTube or direct link)
+        required: true
+      job:
+        description: Job id (letters, digits, dashes)
+        required: true
+      model:
+        description: Whisper model (tiny, base, small, medium)
+        default: small
+      language:
+        description: Language code, empty = auto-detect
+        default: ""
+
+jobs:
+  transcribe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+      - name: Install
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install -q -r requirements.txt
+      - name: Cache whisper models
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: whisper-${{ inputs.model }}
+      - name: Download video
+        env:
+          YT_COOKIES: ${{ secrets.YT_COOKIES }}
+          URL: ${{ inputs.url }}
+        run: |
+          mkdir -p work
+          COOKIE_ARG=""
+          if [ -n "$YT_COOKIES" ]; then printf '%s' "$YT_COOKIES" > cookies.txt; COOKIE_ARG="--cookies cookies.txt"; fi
+          yt-dlp $COOKIE_ARG --no-playlist \
+            -f "bv*[height<=1080][ext=mp4]+ba[ext=m4a]/bv*[height<=1080]+ba/b[height<=1080]/b" \
+            --merge-output-format mp4 -o work/source.mp4 \
+            --print-to-file "%(title)s" work/title.txt \
+            --print-to-file "%(channel)s" work/channel.txt \
+            --print-to-file "%(duration)s" work/duration.txt \
+            "$URL"
+          rm -f cookies.txt
+          ls -lh work
+      - name: Transcribe
+        run: python scripts/transcribe.py work/source.mp4 --out work/transcript --model "${{ inputs.model }}" --language "${{ inputs.language }}"
+      - name: Bundle transcript
+        run: cp work/title.txt work/channel.txt work/duration.txt work/transcript/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: transcript-${{ inputs.job }}
+          path: work/transcript
+          retention-days: 7
+      - uses: actions/upload-artifact@v4
+        with:
+          name: source-${{ inputs.job }}
+          path: work/source.mp4
+          retention-days: 3
+          compression-level: 0
