@@ -19,7 +19,7 @@ on:
 
 permissions:
   actions: read
-  contents: read
+  contents: write
 
 jobs:
   render:
@@ -41,12 +41,11 @@ jobs:
           path: work
           run-id: ${{ inputs.source_run_id }}
           github-token: ${{ github.token }}
-      - uses: actions/download-artifact@v4
-        with:
-          name: transcript-${{ inputs.job }}
-          path: work/transcript
-          run-id: ${{ inputs.source_run_id }}
-          github-token: ${{ github.token }}
+      - name: Get transcript from job branch
+        run: |
+          git fetch -q --depth 1 origin "job/${{ inputs.job }}"
+          mkdir -p work/transcript
+          git --work-tree=work checkout FETCH_HEAD -- transcript
       - name: Render clips
         env:
           CLIPS: ${{ inputs.clips }}
@@ -55,9 +54,7 @@ jobs:
           python scripts/render.py --video work/source.mp4 --words work/transcript/words.json \
             --clips work/clips.json --out out --mode "${{ inputs.mode }}"
           ls -lh out
-      - uses: actions/upload-artifact@v4
-        with:
-          name: clips-${{ inputs.job }}
-          path: out
-          retention-days: 14
-          compression-level: 0
+      - name: Publish clips to job branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/publish.sh "job/${{ inputs.job }}" out clips
