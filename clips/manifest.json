@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "start": 1048.02,
+    "end": 1138.55,
+    "title": "Theodort face à tout le collège",
+    "hook": "Toute la cour attendait la bagarre…",
+    "duration": 90.5,
+    "mode": "track",
+    "face_coverage": 0.78,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 1469.93,
+    "end": 1524.55,
+    "title": "Theodort et le bédo à 13 ans",
+    "hook": "Il a commencé à 13 ans…",
+    "duration": 54.6,
+    "mode": "track",
+    "face_coverage": 0.86,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 2320.77,
+    "end": 2376.23,
+    "title": "T'as l'air d'être un très bon ami",
+    "hook": "",
+    "duration": 55.5,
+    "mode": "track",
+    "face_coverage": 0.88,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 2463.95,
+    "end": 2519.15,
+    "title": "Il suçait son pouce jusqu'à 16 ans",
+    "hook": "Son pouce jusqu'à 16 ans 😭",
+    "duration": 55.2,
+    "mode": "track",
+    "face_coverage": 0.83,
+    "file": "clip_4.mp4"
+  }
+]
