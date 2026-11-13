@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "start": 121.47,
+    "end": 154.31,
+    "title": "Elle lui a offert New York",
+    "hook": "Le cadeau le plus romantique ?",
+    "duration": 32.8,
+    "mode": "track",
+    "face_coverage": 1.0,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 390.49,
+    "end": 432.07,
+    "title": "Michou et les edits glow-up",
+    "hook": "",
+    "duration": 41.6,
+    "mode": "track",
+    "face_coverage": 0.51,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 1298.73,
+    "end": 1365.65,
+    "title": "Il a mis un râteau à son crush",
+    "hook": "J'ai mis un râteau à mon crush",
+    "duration": 66.9,
+    "mode": "track",
+    "face_coverage": 0.65,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 2092.21,
+    "end": 2152.53,
+    "title": "Fanny a le papillomavirus",
+    "hook": "Elle s'est fait dépister…",
+    "duration": 60.3,
+    "mode": "track",
+    "face_coverage": 0.82,
+    "file": "clip_4.mp4"
+  }
+]
