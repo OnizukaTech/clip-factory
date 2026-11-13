@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "start": 208.31,
+    "end": 258.43,
+    "title": "600€ pour un PC : le hustle de Kameto ado",
+    "hook": "Il n'avait pas de PC…",
+    "duration": 50.1,
+    "mode": "fit",
+    "face_coverage": 0.18,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 451.43,
+    "end": 504.35,
+    "title": "Les notes du bac de Kameto",
+    "hook": "Il séchait les cours pour LoL",
+    "duration": 52.9,
+    "mode": "fit",
+    "face_coverage": 0.05,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 610.53,
+    "end": 662.1,
+    "title": "Kameto quitte tout pour l'Angleterre",
+    "hook": "Un crédit de 1000€ et un aller simple",
+    "duration": 51.6,
+    "mode": "fit",
+    "face_coverage": 0.44,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 844.24,
+    "end": 870.06,
+    "title": "Le père de Kameto, son plus grand fan",
+    "hook": "Ce que son père lui a dit",
+    "duration": 25.8,
+    "mode": "track",
+    "face_coverage": 0.75,
+    "file": "clip_4.mp4"
+  }
+]
