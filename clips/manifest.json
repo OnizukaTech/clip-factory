@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "start": 951.18,
+    "end": 1017.32,
+    "title": "Domingo a triché à son test de QI",
+    "hook": "Il a triché à son test de QI…",
+    "duration": 66.1,
+    "mode": "fit",
+    "face_coverage": 0.3,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 2222.88,
+    "end": 2280.68,
+    "title": "Domingo et sa femme",
+    "hook": "Il la connaît depuis ses 10 ans",
+    "duration": 57.8,
+    "mode": "fit",
+    "face_coverage": 0.2,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 2847.26,
+    "end": 2881.18,
+    "title": "Le coloc somnambule",
+    "hook": "",
+    "duration": 33.9,
+    "mode": "fit",
+    "face_coverage": 0.23,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 3035.68,
+    "end": 3086.34,
+    "title": "C'est pas moi à la télé",
+    "hook": "Il niait être streamer…",
+    "duration": 50.7,
+    "mode": "fit",
+    "face_coverage": 0.17,
+    "file": "clip_4.mp4"
+  }
+]
