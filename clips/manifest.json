@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "start": 243.57,
+    "end": 294.01,
+    "title": "Le cauchemar de Feldup",
+    "hook": "Son cauchemar de cette nuit…",
+    "duration": 50.4,
+    "mode": "track",
+    "face_coverage": 0.58,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 698.07,
+    "end": 781.05,
+    "title": "Les livraisons Uber Eats de son copain",
+    "hook": "Elle croyait que c'était son copain…",
+    "duration": 83.0,
+    "mode": "track",
+    "face_coverage": 0.58,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 2105.91,
+    "end": 2195.55,
+    "title": "La valise du client",
+    "hook": "Il interdit d'ouvrir son coffre…",
+    "duration": 89.6,
+    "mode": "track",
+    "face_coverage": 0.64,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 2779.17,
+    "end": 2860.07,
+    "title": "Le Spider-Man de Denver",
+    "hook": "",
+    "duration": 80.9,
+    "mode": "fit",
+    "face_coverage": 0.39,
+    "file": "clip_4.mp4"
+  }
+]
