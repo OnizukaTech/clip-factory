@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "start": 380.17,
+    "end": 451.65,
+    "title": "Qui a cassé le pied de Bailane ?",
+    "hook": "Qui lui a cassé le pied ?",
+    "duration": 71.5,
+    "mode": "fit",
+    "face_coverage": 0.32,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 621.63,
+    "end": 673.37,
+    "title": "Squeezie : David contre Goliath",
+    "hook": "60 kg contre 100 kg",
+    "duration": 51.7,
+    "mode": "fit",
+    "face_coverage": 0.3,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 1829.96,
+    "end": 1881.05,
+    "title": "Cite 3 catcheurs",
+    "hook": "Cite 3 catcheurs…",
+    "duration": 51.1,
+    "mode": "fit",
+    "face_coverage": 0.32,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 2368.03,
+    "end": 2424.52,
+    "title": "15 millions c'est pas assez",
+    "hook": "",
+    "duration": 56.5,
+    "mode": "fit",
+    "face_coverage": 0.29,
+    "file": "clip_4.mp4"
+  }
+]
