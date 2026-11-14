@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "start": 329.45,
+    "end": 359.35,
+    "title": "C'est une photo ou quoi ?",
+    "hook": "Il a pas bougé depuis 1 heure",
+    "duration": 29.9,
+    "mode": "fit",
+    "face_coverage": 0.42,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 380.63,
+    "end": 440.55,
+    "title": "Bibi et ses 24000 dégâts",
+    "hook": "45 min de game, 24 000 dégâts…",
+    "duration": 59.9,
+    "mode": "fit",
+    "face_coverage": 0.8,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 1122.89,
+    "end": 1163.25,
+    "title": "Laisse-moi jouer mon Viego",
+    "hook": "Le jungler craque en plein match",
+    "duration": 40.4,
+    "mode": "fit",
+    "face_coverage": 0.96,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 1331.27,
+    "end": 1361.11,
+    "title": "Même ma grippe c'est Nisqy",
+    "hook": "Tout est la faute de Nisqy",
+    "duration": 29.8,
+    "mode": "fit",
+    "face_coverage": 0.68,
+    "file": "clip_4.mp4"
+  }
+]
