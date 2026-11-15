@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "start": 614.52,
+    "end": 658.33,
+    "title": "250 kilos d'ego",
+    "hook": "Squeezie vs Amine : les commentateurs",
+    "duration": 43.8,
+    "mode": "fit",
+    "face_coverage": 0.06,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 691.59,
+    "end": 747.06,
+    "title": "Squeezie s'envole",
+    "hook": "Personne ne s'y attendait",
+    "duration": 55.5,
+    "mode": "fit",
+    "face_coverage": 0.12,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 1260.65,
+    "end": 1312.41,
+    "title": "Le Poison Rana de Squeezie",
+    "hook": "Il n'a pas vu venir…",
+    "duration": 51.8,
+    "mode": "fit",
+    "face_coverage": 0.16,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 1747.89,
+    "end": 1815.51,
+    "title": "Amine, ne fais pas ça",
+    "hook": "Tout le monde est debout",
+    "duration": 67.6,
+    "mode": "fit",
+    "face_coverage": 0.11,
+    "file": "clip_4.mp4"
+  },
+  {
+    "id": 5,
+    "start": 1991.3,
+    "end": 2060.04,
+    "title": "Le premier champion Final Slam",
+    "hook": "Qui est le champion ?",
+    "duration": 68.7,
+    "mode": "fit",
+    "face_coverage": 0.21,
+    "file": "clip_5.mp4"
+  }
+]
