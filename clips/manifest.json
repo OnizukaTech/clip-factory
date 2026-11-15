@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "start": 2880.75,
+    "end": 2950.47,
+    "title": "Des oeufs de dinosaures",
+    "hook": "Elle possède des oeufs de dinosaures",
+    "duration": 69.7,
+    "mode": "track",
+    "face_coverage": 0.62,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 3049.93,
+    "end": 3101.51,
+    "title": "La ventriloque Tiki",
+    "hook": "Qui est la ventriloque ?",
+    "duration": 51.6,
+    "mode": "track",
+    "face_coverage": 0.69,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 3383.93,
+    "end": 3425.68,
+    "title": "Le vrai sosie d'Adèle",
+    "hook": "Ils ont choisi son sosie à sa place…",
+    "duration": 41.8,
+    "mode": "track",
+    "face_coverage": 0.71,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 3531.53,
+    "end": 3572.91,
+    "title": "Mister V avait raison",
+    "hook": "Il l'avait dit dès le début…",
+    "duration": 41.4,
+    "mode": "track",
+    "face_coverage": 0.72,
+    "file": "clip_4.mp4"
+  }
+]
