@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "start": 0.0,
+    "end": 52.11,
+    "title": "La verite sur l'embrouille",
+    "hook": "On regle ca sur le ring",
+    "duration": 52.1,
+    "mode": "track",
+    "face_coverage": 0.51,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 159.81,
+    "end": 218.22,
+    "title": "Entree facon Michael Jackson",
+    "hook": "L'entree la plus folle du catch",
+    "duration": 58.4,
+    "mode": "fit",
+    "face_coverage": 0.28,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 758.05,
+    "end": 813.05,
+    "title": "Une claque de catcheur",
+    "hook": "Une claque de catcheur, ca fait quoi ?",
+    "duration": 55.0,
+    "mode": "fit",
+    "face_coverage": 0.17,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 2661.55,
+    "end": 2694.73,
+    "title": "Pour le catch francais",
+    "hook": "Il le fait pour le catch francais",
+    "duration": 33.2,
+    "mode": "fit",
+    "face_coverage": 0.15,
+    "file": "clip_4.mp4"
+  },
+  {
+    "id": 5,
+    "start": 2866.99,
+    "end": 2913.55,
+    "title": "Squeezie sur la tour Montparnasse",
+    "hook": "Les enfants de Squeezie vont halluciner",
+    "duration": 46.6,
+    "mode": "track",
+    "face_coverage": 0.59,
+    "file": "clip_5.mp4"
+  },
+  {
+    "id": 6,
+    "start": 3109.79,
+    "end": 3172.84,
+    "title": "Le catch c'est de la danse",
+    "hook": "Le catch, c'est de la danse ?",
+    "duration": 63.1,
+    "mode": "track",
+    "face_coverage": 0.68,
+    "file": "clip_6.mp4"
+  },
+  {
+    "id": 7,
+    "start": 3372.43,
+    "end": 3419.87,
+    "title": "Le cardio d'un streamer",
+    "hook": "Le cardio d'un mec de 20 ans de plus",
+    "duration": 47.4,
+    "mode": "fit",
+    "face_coverage": 0.09,
+    "file": "clip_7.mp4"
+  }
+]
