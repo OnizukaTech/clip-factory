@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "start": 159.65,
+    "end": 208.01,
+    "title": "Pourquoi une odeur réveille un souvenir",
+    "hook": "Pourquoi une odeur te ramène en enfance ?",
+    "duration": 48.4,
+    "mode": "fit",
+    "face_coverage": 0.32,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 1709.45,
+    "end": 1748.99,
+    "title": "Plus rares que les astronautes",
+    "hook": "Plus rares que les astronautes",
+    "duration": 39.5,
+    "mode": "fit",
+    "face_coverage": 0.37,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 1665.87,
+    "end": 1709.75,
+    "title": "L'iris, l'or des parfumeurs",
+    "hook": "Jusqu'à 40 000 € le kilo",
+    "duration": 43.9,
+    "mode": "fit",
+    "face_coverage": 0.44,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 2350.28,
+    "end": 2419.74,
+    "title": "L'odeur des casinos de Vegas",
+    "hook": "Un parfum qui sent les casinos de Vegas",
+    "duration": 69.5,
+    "mode": "track",
+    "face_coverage": 0.5,
+    "file": "clip_4.mp4"
+  }
+]
