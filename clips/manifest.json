@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "start": 481.55,
+    "end": 491.87,
+    "title": "Final Slam 1",
+    "hook": "",
+    "mode": "fit",
+    "duration": 10.3,
+    "face_coverage": 0.56,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 1254.69,
+    "end": 1334.74,
+    "title": "Final Slam 2",
+    "hook": "",
+    "mode": "fit",
+    "duration": 80.1,
+    "face_coverage": 0.15,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 2375.0,
+    "end": 2463.0,
+    "title": "Final Slam 3",
+    "hook": "",
+    "mode": "fit",
+    "duration": 88.0,
+    "face_coverage": 0.19,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 2463.0,
+    "end": 2550.0,
+    "title": "Final Slam 4",
+    "hook": "",
+    "mode": "fit",
+    "duration": 87.0,
+    "face_coverage": 0.31,
+    "file": "clip_4.mp4"
+  },
+  {
+    "id": 5,
+    "start": 3290.37,
+    "end": 3351.45,
+    "title": "Final Slam 5",
+    "hook": "",
+    "mode": "fit",
+    "duration": 61.1,
+    "face_coverage": 0.07,
+    "file": "clip_5.mp4"
+  },
+  {
+    "id": 6,
+    "start": 3505.15,
+    "end": 3580.43,
+    "title": "Final Slam 6",
+    "hook": "",
+    "mode": "fit",
+    "duration": 75.3,
+    "face_coverage": 0.05,
+    "file": "clip_6.mp4"
+  },
+  {
+    "id": 7,
+    "start": 3655.8,
+    "end": 3745.52,
+    "title": "Final Slam 7",
+    "hook": "",
+    "mode": "fit",
+    "duration": 89.7,
+    "face_coverage": 0.11,
+    "file": "clip_7.mp4"
+  },
+  {
+    "id": 8,
+    "start": 4490.0,
+    "end": 4578.0,
+    "title": "Final Slam 8",
+    "hook": "",
+    "mode": "fit",
+    "duration": 88.0,
+    "face_coverage": 0.19,
+    "file": "clip_8.mp4"
+  },
+  {
+    "id": 9,
+    "start": 4680.0,
+    "end": 4768.0,
+    "title": "Final Slam 9",
+    "hook": "",
+    "mode": "fit",
+    "duration": 88.0,
+    "face_coverage": 0.28,
+    "file": "clip_9.mp4"
+  },
+  {
+    "id": 10,
+    "start": 5322.67,
+    "end": 5412.09,
+    "title": "Final Slam 10",
+    "hook": "",
+    "mode": "fit",
+    "duration": 89.4,
+    "face_coverage": 0.1,
+    "file": "clip_10.mp4"
+  },
+  {
+    "id": 11,
+    "start": 7792.03,
+    "end": 7862.54,
+    "title": "Final Slam 11",
+    "hook": "",
+    "mode": "fit",
+    "duration": 70.5,
+    "face_coverage": 0.06,
+    "file": "clip_11.mp4"
+  },
+  {
+    "id": 12,
+    "start": 9916.05,
+    "end": 10002.78,
+    "title": "Final Slam 12",
+    "hook": "",
+    "mode": "fit",
+    "duration": 86.7,
+    "face_coverage": 0.15,
+    "file": "clip_12.mp4"
+  },
+  {
+    "id": 13,
+    "start": 10139.51,
+    "end": 10215.89,
+    "title": "Final Slam 13",
+    "hook": "",
+    "mode": "fit",
+    "duration": 76.4,
+    "face_coverage": 0.08,
+    "file": "clip_13.mp4"
+  },
+  {
+    "id": 14,
+    "start": 10745.0,
+    "end": 10833.0,
+    "title": "Final Slam 14",
+    "hook": "",
+    "mode": "fit",
+    "duration": 88.0,
+    "face_coverage": 0.23,
+    "file": "clip_14.mp4"
+  },
+  {
+    "id": 15,
+    "start": 11108.0,
+    "end": 11196.0,
+    "title": "Final Slam 15",
+    "hook": "",
+    "mode": "fit",
+    "duration": 88.0,
+    "face_coverage": 0.24,
+    "file": "clip_15.mp4"
+  }
+]
