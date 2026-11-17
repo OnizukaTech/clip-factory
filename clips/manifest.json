@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1,
+    "start": 295.32,
+    "end": 357.61,
+    "title": "3h du matin, ma porte s'ouvre",
+    "hook": "3h du mat, j'habite seul...",
+    "duration": 62.3,
+    "mode": "track",
+    "face_coverage": 0.9,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 357.73,
+    "end": 418.79,
+    "title": "Il est passe par ma chambre",
+    "hook": "Le voleur etait dans ma chambre",
+    "duration": 61.1,
+    "mode": "track",
+    "face_coverage": 0.74,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 441.86,
+    "end": 498.14,
+    "title": "La video premonitoire",
+    "hook": "La video sur laquelle je me suis endormi",
+    "duration": 56.3,
+    "mode": "fit",
+    "face_coverage": 0.45,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 551.08,
+    "end": 604.56,
+    "title": "On appelle le pote du voleur",
+    "hook": "On a appele le pote du voleur",
+    "duration": 53.5,
+    "mode": "fit",
+    "face_coverage": 0.43,
+    "file": "clip_4.mp4"
+  },
+  {
+    "id": 5,
+    "start": 689.94,
+    "end": 777.92,
+    "title": "Je corrige le policier",
+    "hook": "Le policier qui prend ma plainte...",
+    "duration": 88.0,
+    "mode": "track",
+    "face_coverage": 0.72,
+    "file": "clip_5.mp4"
+  }
+]
