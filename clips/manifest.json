@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "start": 909.05,
+    "end": 944.81,
+    "title": "Les secrets du catch",
+    "hook": "Les secrets du catch (spoiler)",
+    "duration": 35.8,
+    "mode": "fit",
+    "face_coverage": 0.5,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 595.83,
+    "end": 629.55,
+    "title": "Un World Tour sans budget",
+    "hook": "Le World Tour sans budget",
+    "duration": 33.7,
+    "mode": "fit",
+    "face_coverage": 0.11,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 1270.43,
+    "end": 1302.29,
+    "title": "Cette villa sera dans GTA 6",
+    "hook": "Cette villa sera dans GTA 6",
+    "duration": 31.9,
+    "mode": "fit",
+    "face_coverage": 0.44,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 1446.17,
+    "end": 1481.63,
+    "title": "GTA 6 en heure francaise",
+    "hook": "Lancer GTA 6 en heure francaise",
+    "duration": 35.5,
+    "mode": "track",
+    "face_coverage": 0.91,
+    "file": "clip_4.mp4"
+  }
+]
