@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "start": 466.87,
+    "end": 556.25,
+    "title": "Kaizen l a mis KO",
+    "hook": "La video d Inoxtag l a mis KO",
+    "duration": 89.4,
+    "mode": "track",
+    "face_coverage": 0.84,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 722.03,
+    "end": 759.59,
+    "title": "On parle plus de l argent que du projet",
+    "hook": "Tout le monde parle de l argent",
+    "duration": 37.6,
+    "mode": "track",
+    "face_coverage": 0.99,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 3876.7,
+    "end": 3946.28,
+    "title": "Achete-toi la tranquillite",
+    "hook": "A 18 ans, il achete un terrain",
+    "duration": 69.6,
+    "mode": "track",
+    "face_coverage": 0.72,
+    "file": "clip_3.mp4"
+  }
+]
