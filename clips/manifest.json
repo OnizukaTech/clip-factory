@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "start": 112.13,
+    "end": 168.15,
+    "title": "Meme en 15 FPS il l achete",
+    "hook": "GTA 6 en 30 FPS ? Il s en fout",
+    "duration": 56.0,
+    "mode": "fit",
+    "face_coverage": 0.42,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 282.75,
+    "end": 322.79,
+    "title": "La nostalgie de GTA 5",
+    "hook": "GTA 5, nos meilleures annees",
+    "duration": 40.0,
+    "mode": "fit",
+    "face_coverage": 0.06,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 336.43,
+    "end": 409.54,
+    "title": "Le plan de Michou pour GTA 6",
+    "hook": "Michou veut jouer a GTA 6 avant tout le monde",
+    "duration": 73.1,
+    "mode": "fit",
+    "face_coverage": 0.46,
+    "file": "clip_3.mp4"
+  }
+]
