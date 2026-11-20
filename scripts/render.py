@@ -6,6 +6,9 @@ clips.json format:
   {"id": 1, "start": 83.2, "end": 131.0, "title": "Short title", "hook": "Optional on-screen hook text"},
   ...
 ]
+Optional per clip: "mode" (auto/track/fit) and "theme":
+  default - white captions with yellow highlighted word, black-on-white hook box
+  gta     - GTA 6 look: hot pink (#FF3D8B) highlight and hook lettering with a dark plum (#2A0B45) outline
 
 Modes:
   track  - crop a 9:16 window that follows the largest face (talking heads, podcasts)
@@ -72,7 +75,23 @@ def chunk_words(words, max_words=3, max_gap=0.6, max_len=1.6):
     return chunks
 
 
-def write_ass(path, words, clip_start, clip_end, hook, caption_y):
+# Optional per-clip "theme". Colours are ASS &HAABBGGRR (blue-green-red order).
+THEMES = {
+    "default": {
+        "cap_outline": "&H00000000",
+        "highlight": "&H00E5FF&",  # yellow
+        "hook_style": "Style: Hook,DejaVu Sans,64,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,3,18,0,8,80,80,220,1",
+    },
+    "gta": {  # GTA 6 / Vice City look: hot pink #FF3D8B with dark plum #2A0B45 outline
+        "cap_outline": "&H00450B2A",
+        "highlight": "&H8B3DFF&",
+        "hook_style": "Style: Hook,DejaVu Sans,80,&H008B3DFF,&H008B3DFF,&H00450B2A,&H80450B2A,-1,0,0,0,100,100,0,0,1,8,4,8,80,80,220,1",
+    },
+}
+
+
+def write_ass(path, words, clip_start, clip_end, hook, caption_y, theme="default"):
+    th = THEMES.get(theme or "default", THEMES["default"])
     rel = []
     for w in words:
         if w["e"] <= clip_start or w["s"] >= clip_end or not w["w"]:
@@ -88,8 +107,8 @@ ScaledBorderAndShadow: yes
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,DejaVu Sans,84,&H00FFFFFF,&H00FFFFFF,&H00000000,&H80000000,-1,0,0,0,100,100,0,0,1,7,3,5,60,60,0,1
-Style: Hook,DejaVu Sans,64,&H00000000,&H00000000,&H00FFFFFF,&H00FFFFFF,-1,0,0,0,100,100,0,0,3,18,0,8,80,80,220,1
+Style: Cap,DejaVu Sans,84,&H00FFFFFF,&H00FFFFFF,{th["cap_outline"]},&H80000000,-1,0,0,0,100,100,0,0,1,7,3,5,60,60,0,1
+{th["hook_style"]}
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -98,7 +117,7 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     if hook:
         ev.append(f"Dialogue: 1,{ass_time(0)},{ass_time(3.5)},Hook,,0,0,0,,{{\\fad(150,250)}}{esc(hook)}")
 
-    hi = "{\\c&H00E5FF&}"  # yellow (BGR)
+    hi = "{\\c" + th["highlight"] + "}"
     norm = "{\\c&HFFFFFF&}"
     pos = f"{{\\an5\\pos({W // 2},{caption_y})}}"
     for ch in chunk_words(rel):
@@ -261,7 +280,7 @@ def main():
             mode = "fit"  # already vertical-ish
 
         caption_y = int(H * 0.70) if mode == "track" else int(H * 0.80)
-        write_ass(ass, words, s, e, c.get("hook", ""), caption_y)
+        write_ass(ass, words, s, e, c.get("hook", ""), caption_y, c.get("theme", "default"))
 
         if mode == "track":
             cw, xs = crop_path(samples, n, fps, vw, vh)
