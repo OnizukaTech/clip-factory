@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "start": 141.94,
+    "end": 192.34,
+    "title": "Squeezie renove pour Lucia",
+    "hook": "Squeezie fait des travaux pour Lucia",
+    "duration": 50.4,
+    "mode": "fit",
+    "face_coverage": 0.38,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 288.69,
+    "end": 363.19,
+    "title": "Anime et le flou de mouvement",
+    "hook": "Abolition de la douche, c est GTA",
+    "duration": 74.5,
+    "mode": "fit",
+    "face_coverage": 0.64,
+    "file": "clip_2.mp4"
+  }
+]
