@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "start": 42.9,
+    "end": 127.94,
+    "title": "Le decompte de la sortie",
+    "hook": "10, 9, 8... GTA 6 est sorti",
+    "duration": 85.0,
+    "mode": "fit",
+    "face_coverage": 0.13,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 237.68,
+    "end": 296.37,
+    "title": "Un looping sur GTA 6",
+    "hook": "Peut-on faire un looping sur GTA 6 ?",
+    "duration": 58.7,
+    "mode": "fit",
+    "face_coverage": 0.05,
+    "file": "clip_2.mp4"
+  }
+]
