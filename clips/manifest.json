@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "start": 337.17,
+    "end": 388.4,
+    "title": "Jynxzi feels terrible stealing a scooter",
+    "hook": "Just TAKE the scooter!",
+    "mode": "track",
+    "theme": "gta",
+    "duration": 51.2,
+    "face_coverage": 0.9,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 389.0,
+    "end": 420.52,
+    "title": "Jynxzi thought the gator was dead",
+    "hook": "I thought it was dead",
+    "mode": "track",
+    "theme": "gta",
+    "duration": 31.5,
+    "face_coverage": 0.85,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 691.21,
+    "end": 748.87,
+    "title": "Jynxzi and Mr. Parrot find the cash",
+    "hook": "Where's the generator?!",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 57.7,
+    "face_coverage": 0.35,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 865.75,
+    "end": 912.75,
+    "title": "Jynxzi leaves no witnesses",
+    "hook": "No witnesses.",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 47.0,
+    "face_coverage": 0.31,
+    "file": "clip_4.mp4"
+  },
+  {
+    "id": 5,
+    "start": 223.13,
+    "end": 266.32,
+    "title": "Jynxzi goes Steph Curry in GTA 6",
+    "hook": "Steph Curry in GTA 6?!",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 43.2,
+    "face_coverage": 0.4,
+    "file": "clip_5.mp4"
+  },
+  {
+    "id": 6,
+    "start": 164.8,
+    "end": 206.35,
+    "title": "Jynxzi rates his GTA 6 groceries",
+    "hook": "$12 wine = battery acid",
+    "mode": "track",
+    "theme": "gta",
+    "duration": 41.6,
+    "face_coverage": 0.81,
+    "file": "clip_6.mp4"
+  }
+]
