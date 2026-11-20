@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "start": 126.97,
+    "end": 181.61,
+    "title": "Michou coince dans un jeu dans le jeu",
+    "hook": "GTA 6 lui lance un autre jeu",
+    "duration": 54.6,
+    "mode": "fit",
+    "face_coverage": 0.35,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 392.82,
+    "end": 448.29,
+    "title": "Domingo et le tuto des armes",
+    "hook": "Il voulait juste faire le tuto",
+    "duration": 55.5,
+    "mode": "fit",
+    "face_coverage": 0.29,
+    "file": "clip_2.mp4"
+  }
+]
