@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "start": 113.5,
+    "end": 172.53,
+    "title": "Le frein a main",
+    "hook": "500 fois sans se faire avoir...",
+    "duration": 59.0,
+    "mode": "fit",
+    "face_coverage": 0.08,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 705.89,
+    "end": 756.55,
+    "title": "Il peche un requin",
+    "hook": "Il peche un requin legendaire",
+    "duration": 50.7,
+    "mode": "fit",
+    "face_coverage": 0.05,
+    "file": "clip_2.mp4"
+  }
+]
