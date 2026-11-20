@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "start": 147.71,
+    "end": 203.25,
+    "title": "Squeezie et sa console",
+    "hook": "En plein live, sa console lache",
+    "duration": 55.5,
+    "mode": "fit",
+    "face_coverage": 0.35,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 226.6,
+    "end": 292.56,
+    "title": "Anime harcele d invitations",
+    "hook": "Laissez-moi jouer seul",
+    "duration": 66.0,
+    "mode": "fit",
+    "face_coverage": 0.5,
+    "file": "clip_2.mp4"
+  }
+]
