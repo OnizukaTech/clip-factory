@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "start": 0.67,
+    "end": 43.29,
+    "title": "iShowSpeed begs Jason and Lucia to swim for it",
+    "hook": "Let's swim for it!",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 42.6,
+    "face_coverage": 0.45,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 161.6,
+    "end": 205.6,
+    "title": "iShowSpeed watches GTA 6's ending after 52 hours",
+    "hook": "Say they're alive...",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 44.0,
+    "face_coverage": 0.07,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 269.58,
+    "end": 308.9,
+    "title": "iShowSpeed can't accept GTA 6's ending",
+    "hook": "They BOTH died",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 39.3,
+    "face_coverage": 0.32,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 365.79,
+    "end": 386.55,
+    "title": "iShowSpeed hasn't slept in 52 hours",
+    "hook": "52 hours. No sleep.",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 20.8,
+    "face_coverage": 0.0,
+    "file": "clip_4.mp4"
+  },
+  {
+    "id": 5,
+    "start": 478.6,
+    "end": 516.49,
+    "title": "iShowSpeed wants to know what was on the drive",
+    "hook": "What was on the drive?!",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 37.9,
+    "face_coverage": 0.14,
+    "file": "clip_5.mp4"
+  }
+]
