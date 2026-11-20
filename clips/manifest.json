@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "start": 1079.64,
+    "end": 1139.02,
+    "title": "La chaise avant la guillotine",
+    "hook": "J espere que c est un troll",
+    "duration": 59.4,
+    "mode": "fit",
+    "face_coverage": 0.52,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 1240.36,
+    "end": 1273.36,
+    "title": "Setup sur un panier a linge",
+    "hook": "Un setup gaming sur un panier a linge",
+    "duration": 33.0,
+    "mode": "fit",
+    "face_coverage": 0.37,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 1612.72,
+    "end": 1650.1,
+    "title": "Le setup cuisine gaming",
+    "hook": "Pourquoi il y a du vinaigre ?",
+    "duration": 37.4,
+    "mode": "fit",
+    "face_coverage": 0.41,
+    "file": "clip_3.mp4"
+  }
+]
