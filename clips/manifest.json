@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "start": 45.36,
+    "end": 95.15,
+    "title": "xQc watches Lucia roast Jason in front of a cop",
+    "hook": "She stole her mom's car",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 49.8,
+    "face_coverage": 0.61,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 1023.08,
+    "end": 1075.02,
+    "title": "xQc hears GTA 6's craziest conspiracy rant",
+    "hook": "He thinks EVERYONE's in on it",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 51.9,
+    "face_coverage": 0.21,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 1475.41,
+    "end": 1523.95,
+    "title": "xQc's GTA 6 crew refuses to save Donnie",
+    "hook": "Never get out of the boat",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 48.5,
+    "face_coverage": 0.09,
+    "file": "clip_3.mp4"
+  },
+  {
+    "id": 4,
+    "start": 1979.0,
+    "end": 2023.03,
+    "title": "xQc barely escapes in a wrecked plane",
+    "hook": "Engine's done. Pull UP!",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 44.0,
+    "face_coverage": 0.09,
+    "file": "clip_4.mp4"
+  },
+  {
+    "id": 5,
+    "start": 2170.53,
+    "end": 2224.09,
+    "title": "xQc watches Brian lose it at Donny",
+    "hook": "Donny, SHUT UP",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 53.6,
+    "face_coverage": 0.6,
+    "file": "clip_5.mp4"
+  },
+  {
+    "id": 6,
+    "start": 2290.53,
+    "end": 2335.91,
+    "title": "xQc's GTA 6 buddy panics about rednecks",
+    "hook": "We skimmed the wrong bricks",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 45.4,
+    "face_coverage": 0.2,
+    "file": "clip_6.mp4"
+  },
+  {
+    "id": 7,
+    "start": 579.51,
+    "end": 637.55,
+    "title": "xQc's first GTA 6 robbery",
+    "hook": "Two minutes. Hands up.",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 58.0,
+    "face_coverage": 0.31,
+    "file": "clip_7.mp4"
+  },
+  {
+    "id": 8,
+    "start": 2674.33,
+    "end": 2709.96,
+    "title": "xQc hears Lucia's call from prison",
+    "hook": "Second thoughts already?",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 35.6,
+    "face_coverage": 0.3,
+    "file": "clip_8.mp4"
+  }
+]
