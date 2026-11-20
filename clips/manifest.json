@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "start": 189.39,
+    "end": 236.87,
+    "title": "Rockstar debarque a la villa",
+    "hook": "Rockstar debarque a la villa",
+    "duration": 47.5,
+    "mode": "track",
+    "face_coverage": 0.74,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 410.23,
+    "end": 473.03,
+    "title": "Son prof jouait a FIFA en cours",
+    "hook": "Mon prof ouvrait des packs FIFA en cours",
+    "duration": 62.8,
+    "mode": "track",
+    "face_coverage": 0.55,
+    "file": "clip_2.mp4"
+  }
+]
