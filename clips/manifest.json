@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "start": 14.89,
+    "end": 59.99,
+    "title": "xQc's honest GTA 6 review",
+    "hook": "Michelin dish at McDonald's",
+    "mode": "track",
+    "theme": "gta",
+    "duration": 45.1,
+    "face_coverage": 0.7,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 180.49,
+    "end": 233.85,
+    "title": "Streamer's first day GTA 6 verdict",
+    "hook": "Better than Red Dead 2?",
+    "mode": "fit",
+    "theme": "gta",
+    "duration": 53.4,
+    "face_coverage": 0.0,
+    "file": "clip_2.mp4"
+  }
+]
