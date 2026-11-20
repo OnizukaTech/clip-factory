@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "start": 172.93,
+    "end": 216.19,
+    "title": "Les requins attaquent pas",
+    "hook": "Les requins attaquent pas, idee recue",
+    "duration": 43.3,
+    "mode": "fit",
+    "face_coverage": 0.02,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 335.72,
+    "end": 374.04,
+    "title": "Arnaque a l assurance",
+    "hook": "Une arnaque a l assurance jamais vue",
+    "duration": 38.3,
+    "mode": "fit",
+    "face_coverage": 0.09,
+    "file": "clip_2.mp4"
+  }
+]
