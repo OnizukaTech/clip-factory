@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "start": 671.79,
+    "end": 755.37,
+    "title": "Duel de salaire",
+    "hook": "",
+    "duration": 83.6,
+    "mode": "fit",
+    "face_coverage": 0.79,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 1432.27,
+    "end": 1483.49,
+    "title": "Petit doigt",
+    "hook": "",
+    "duration": 51.2,
+    "mode": "fit",
+    "face_coverage": 0.58,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 1820.35,
+    "end": 1884.63,
+    "title": "Culture G",
+    "hook": "",
+    "duration": 64.3,
+    "mode": "fit",
+    "face_coverage": 0.47,
+    "file": "clip_3.mp4"
+  }
+]
