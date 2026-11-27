@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "start": 1090.78,
+    "end": 1123.62,
+    "title": "Mon Ken",
+    "hook": "",
+    "duration": 32.8,
+    "mode": "fit",
+    "face_coverage": 0.45,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 1589.8,
+    "end": 1630.34,
+    "title": "Droit de vote",
+    "hook": "",
+    "duration": 40.5,
+    "mode": "fit",
+    "face_coverage": 0.5,
+    "file": "clip_2.mp4"
+  }
+]
