@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "start": 1090.69,
+    "end": 1158.49,
+    "title": "10 000 euros",
+    "hook": "",
+    "duration": 67.8,
+    "mode": "fit",
+    "face_coverage": 0.51,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 1616.13,
+    "end": 1687.69,
+    "title": "Date sous un pont",
+    "hook": "",
+    "duration": 71.6,
+    "mode": "fit",
+    "face_coverage": 0.35,
+    "file": "clip_2.mp4"
+  }
+]
