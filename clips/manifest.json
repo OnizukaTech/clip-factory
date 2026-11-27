@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "start": 457.08,
+    "end": 512.02,
+    "title": "Pointure",
+    "hook": "",
+    "duration": 54.9,
+    "mode": "fit",
+    "face_coverage": 0.36,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 1794.71,
+    "end": 1859.59,
+    "title": "Au grec",
+    "hook": "",
+    "duration": 64.9,
+    "mode": "fit",
+    "face_coverage": 0.36,
+    "file": "clip_2.mp4"
+  }
+]
