@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "start": 653.02,
+    "end": 704.5,
+    "title": "Pas jaloux",
+    "hook": "",
+    "duration": 51.5,
+    "mode": "fit",
+    "face_coverage": 0.48,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 1053.65,
+    "end": 1104.03,
+    "title": "Ce que je fais",
+    "hook": "",
+    "duration": 50.4,
+    "mode": "fit",
+    "face_coverage": 0.25,
+    "file": "clip_2.mp4"
+  }
+]
