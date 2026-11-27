@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "start": 370.23,
+    "end": 404.05,
+    "title": "Pas de permis",
+    "hook": "",
+    "duration": 33.8,
+    "mode": "fit",
+    "face_coverage": 0.8,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 594.71,
+    "end": 625.49,
+    "title": "Nuit étoilée",
+    "hook": "",
+    "duration": 30.8,
+    "mode": "fit",
+    "face_coverage": 0.78,
+    "file": "clip_2.mp4"
+  },
+  {
+    "id": 3,
+    "start": 1425.3,
+    "end": 1487.12,
+    "title": "Trop grand",
+    "hook": "",
+    "duration": 61.8,
+    "mode": "fit",
+    "face_coverage": 0.69,
+    "file": "clip_3.mp4"
+  }
+]
