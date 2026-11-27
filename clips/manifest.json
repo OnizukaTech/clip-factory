@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "start": 506.43,
+    "end": 557.19,
+    "title": "Australie",
+    "hook": "",
+    "duration": 50.8,
+    "mode": "fit",
+    "face_coverage": 0.69,
+    "file": "clip_1.mp4"
+  },
+  {
+    "id": 2,
+    "start": 1346.5,
+    "end": 1378.62,
+    "title": "Amitie fille garcon",
+    "hook": "",
+    "duration": 32.1,
+    "mode": "fit",
+    "face_coverage": 0.17,
+    "file": "clip_2.mp4"
+  }
+]
